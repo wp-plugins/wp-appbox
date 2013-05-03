@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Appbox\n"
+"POT-Creation-Date: 2013-04-10 01:42+0100\n"
+"PO-Revision-Date: 2013-04-25 18:31+0100\n"
+"Last-Translator: Marcelismus <marcelismus@der-s.com>\n"
+"Language-Team: Marcelismus\n"
+"Language: English (UK)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-appbox.php:178
+msgid ""
+"Aufgrund einer temporären Erkennung als Bot können momentan leider keine App-"
+"Details angezeigt werden."
+msgstr ""
+"En raison d'une reconnaissance temporaire en tant que bot, aucune "
+"information ne peut actuellement être affichée."
+
+#: wp-appbox.php:204
+msgid "Der Store konnte <strong>nicht</strong> erkannt werden."
+msgstr "Le Market pourrait <strong>NE PAS</strong> être reconnu."
+
+#: wp-appbox.php:205
+msgid "Es konnte <strong>keine</strong> App-ID erkannt werden."
+msgstr "L'ID de l'application pourrait <strong>NE PAS</strong> être reconnue."
+
+#: wp-appbox.php:229
+msgid "Die App konnte <b>nicht</b> gefunden werden."
+msgstr "L'application pourrait <strong>NE PAS</strong> être trouvée."
+
+#: wp-appbox.php:271
+msgid ""
+"\"allow_url_fopen\" ist auf diesem Server deaktiviert, wird aber benötigt. "
+"Bitte aktiviere das Feature oder kontaktiere deinen Webhoster."
+msgstr ""
+"La fonction \"allow_url_fopen\" est désactivée sur ce serveur, elle est "
+"cependant nécessaire. Veuillez svp l'activer (ou contacter votre hébergeur)."
+
+#: wp-appbox.php:274
+msgid ""
+"\"cURL\" ist auf diesem Server deaktiviert, wird aber benötigt. Bitte "
+"aktiviere das Feature oder kontaktiere deinen Webhoster."
+msgstr ""
+"La fonction  \"cURL\" est désactivée sur ce serveur, elle est cependant "
+"nécessaire. Veuillez svp l'activer (ou contacter votre hébergeur)."
+
+#: inc/admin.php:11
+msgid "Der WP-Appbox-Cache wurde geleert."
+msgstr "Le cache a été purgé avec succès."
+
+#: inc/admin.php:12
+msgid "Der WP-Appbox-Cache konnte nicht geleert werden."
+msgstr "Le cache ne peut pas être purgé."
+
+#: inc/admin.php:56
+msgid "Allgemeines"
+msgstr "Général"
+
+#: inc/admin.php:57
+msgid "Editor & Banner"
+msgstr "WYSIWYG & Bannières"
+
+#: inc/admin.php:58
+msgid "Affiliate"
+msgstr "Affiliations"
+
+#: inc/admin.php:60
+msgid "Hilfe"
+msgstr "Aide"
+
+#: inc/admin.php:135
+msgid "Spenden via PayPal"
+msgstr "Faire un Don (PayPal)"
+
+#: inc/admin.php:135
+msgid "Folge mir via Twitter"
+msgstr "Me suivre sur Twitter"
+
+#: inc/admin.php:135
+msgid "Besuch die Plugin-Seite"
+msgstr "Visiter la page officielle du Plugin"
+
+#: inc/admin.php:135
+msgid "Plugin im WordPress Directory"
+msgstr "Voir le Plugin dans le réperoire officiel WordPress"
+
+#: inc/admin.php:136
+msgid ""
+"Soll der Cache wirklich geleert werden? Sämtliche App-Daten müssen dann neu "
+"von den Servern der Betreiber geladen werden."
+msgstr ""
+"Souhaitez-vous réellement purger le cache ? Toutes les données devront être "
+"à nouveau chargées depuis le serveur de l'opérateur."
+
+#: inc/admin.php:136
+msgid "Cache leeren"
+msgstr "Purger le cache"
+
+#: inc/admin.php:151
+msgid "Cache-Einstellungen"
+msgstr "Options du cache"
+
+#: inc/admin.php:151
+msgid ""
+"Die Cachingzeiten geben an, wie oft die Daten aktualisiert vom Server "
+"geladen werden - dies erhöht die Performance und sollte eigentlich nicht "
+"geändert werden."
+msgstr ""
+"L'intervalle de mise en cache indique à quelle fréquence les données seront "
+"mises à jour à partir du serveur - ce qui augmente les performances, et ne "
+"devrait en principe pas être changé."
+
+#: inc/admin.php:154
+msgid "Caching-Zeit (in Minuten)"
+msgstr "Mise en cache des données (en minutes)"
+
+#: inc/admin.php:157
+msgid "Die empfohlene Zeitspanne beträgt <strong>300</strong> Minuten"
+msgstr "L'intervalle recommandé est de <strong>300</strong> minutes"
+
+#: inc/admin.php:161
+msgid "Sonstige Einstellungen"
+msgstr "Autres paramètres"
+
+#: inc/admin.php:161
+msgid "Sonstiges Gedöns, was keine eigene Kategorie benötigt :D"
+msgstr "Différents réglages qui ne nécessitent pas une catégorie distincte :D"
+
+#: inc/admin.php:164
+msgid "QR-Codes ausblenden"
+msgstr "Ne pas afficher les QR-Codes"
+
+#: inc/admin.php:166
+msgid "Blendet sämtliche QR-Codes in den App-Badges aus."
+msgstr "Ne pas afficher les QR-Codes sur les bannières d'applications."
+
+#: inc/admin.php:170
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: inc/admin.php:172
+msgid ""
+"Fügt allen Links das Attribut \"<a href=\"http://de.wikipedia.org/wiki/"
+"Nofollow\" target=\"_blank\">nofollow</a>\" hinzu"
+msgstr ""
+"Ajouter un attribut <a href=\"http://en.wikipedia.org/wiki/Nofollow\" target="
+"\"_blank\">nofollow</a> sur les liens"
+
+#: inc/admin.php:175
+msgid "Öffne Links in einem neuen Fenster"
+msgstr "Ouvrir les liens dans une nouvelle fenêtre"
+
+#: inc/admin.php:177
+msgid "Öffnet alle App-Links in einem neuen Fenster (target=\"blank\")"
+msgstr ""
+"Ouvrir les liens des applications dans une nouvelle fenêtre (target = "
+"\"_blank\")"
+
+#: inc/admin.php:181
+msgid "Fehlerausgabe"
+msgstr "Affichage des erreurs"
+
+#: inc/admin.php:181
+msgid ""
+"Die Fehlerausgabe sollte nur in Problemfällen eingeschaltet werden. Kann das "
+"Design auseinandernehmen."
+msgstr ""
+"L'affichage des erreurs ne doit être activé qu'en cas de problèmes de "
+"fonctionnement. Le Design peut être séparé."
+
+#: inc/admin.php:184
+msgid "Parse Output"
+msgstr "Analyse des erreurs"
+
+#: inc/admin.php:186
+msgid "Parse Output aktivieren"
+msgstr "Activer l'analyse des erreurs"
+
+#: inc/admin.php:194
+msgid "App Stores &amp; Formateinstellungen"
+msgstr "Markets &amp; préférences de formats"
+
+#: inc/admin.php:194
+msgid ""
+"Welche Buttons sollten im Editor angezeigt werden und welche App-Banner "
+"sollen bei Verwendung ohne Formatstag genutzt werden?"
+msgstr ""
+"Quels sont les boutons à afficher dans l'éditeur, et quel style de bannière "
+"est à utiliser si non spécification de format ?"
+
+#: inc/admin.php:197
+msgid "Appbox"
+msgstr "Appbox"
+
+#: inc/admin.php:199
+msgid ""
+"Nutze nur einen Button für alle App Stores (alle anderen Buttons werden "
+"ausgeblendet)"
+msgstr ""
+"Afficher un seul bouton dans l'éditeur, pour tous les Markets (tous les "
+"autres seront cachés)"
+
+#: inc/admin.php:203
+msgid "App Store &amp; Mac App Store"
+msgstr "App Store &amp; Mac App Store"
+
+#: inc/admin.php:205 inc/admin.php:215 inc/admin.php:226 inc/admin.php:237
+#: inc/admin.php:247 inc/admin.php:257 inc/admin.php:267 inc/admin.php:277
+#: inc/admin.php:287
+msgid "Button im Editor anzeigen"
+msgstr "Afficher le bouton dans l'éditeur"
+
+#: inc/admin.php:207 inc/admin.php:217 inc/admin.php:228 inc/admin.php:239
+#: inc/admin.php:249 inc/admin.php:259 inc/admin.php:269 inc/admin.php:279
+#: inc/admin.php:289
+msgid "Simple Badge"
+msgstr "Bannière simple"
+
+#: inc/admin.php:208 inc/admin.php:218 inc/admin.php:229 inc/admin.php:240
+#: inc/admin.php:250 inc/admin.php:260 inc/admin.php:270 inc/admin.php:280
+#: inc/admin.php:290
+msgid "Screenshots"
+msgstr "Captures d'écran"
+
+#: inc/admin.php:213
+msgid "Google Play"
+msgstr "Google Play"
+
+#: inc/admin.php:219 inc/admin.php:230
+msgid "Banner Badge"
+msgstr "Banner Badge"
+
+#: inc/admin.php:224
+msgid "AndroidPit"
+msgstr "AndroidPit"
+
+#: inc/admin.php:235
+msgid "Windows Store"
+msgstr "Windows Store"
+
+#: inc/admin.php:245
+msgid "Windows Phone Store"
+msgstr "Windows Phone Store"
+
+#: inc/admin.php:255
+msgid "BlackBerry World"
+msgstr "BlackBerry World"
+
+#: inc/admin.php:265
+msgid "Firefox Marketplace"
+msgstr "Firefox Marketplace"
+
+#: inc/admin.php:275
+msgid "Chrome Web Store"
+msgstr "Chrome Web Store"
+
+#: inc/admin.php:285
+msgid "Firefox Erweiterungen"
+msgstr "Firefox Extensions"
+
+#: inc/admin.php:299
+msgid "Mac App Store &amp; App Store: TradeDoubler"
+msgstr ""
+"Mac App Store &amp; App Store: TradeDoubler (uniquement pour les "
+"utilisateurs Allemands)"
+
+#: inc/admin.php:299
+msgid ""
+"Du hast eine Affiliate-ID bei TradeDoubler? Dann gebe sie hier an und die "
+"App-Store-Links werden mit deiner Affiliate-ID versehen. Du hast keinen "
+"TradeDoubler-Account?"
+msgstr ""
+"Vous avez un compte chez TradeDoubler ? Entrez-le ici et tous vos liens "
+"comporteront votre ID d'affilié. Vous n'avez pas de compte TradeDoubler ?"
+
+#: inc/admin.php:299 inc/admin.php:318
+msgid "Hier bekommst du einen."
+msgstr "Obtenez-en un en cliquant ici."
+
+#: inc/admin.php:306
+msgid "TradeDoubler-ID"
+msgstr "Identifiant TradeDoubler"
+
+#: inc/admin.php:312 inc/admin.php:327
+msgid "Nutze die ID des Entwicklers"
+msgstr "Utiliser l'identifiant du développeur de ce Plugin."
+
+#: inc/admin.php:314
+msgid ""
+"Ich habe keine ID bei TradeDoubler und möchte die ID des Entwicklers nutzen. "
+"(In diesem Falle: <strong>Danke</strong>!)"
+msgstr ""
+"Je n'ai pas d'identifiant TradeDoubler et souhaite utiliser celui du "
+"développeur. (Dans ce cas : <strong>Merci beaucoup</strong> !)"
+
+#: inc/admin.php:318
+msgid "AndroidPit: Affili.net"
+msgstr "AndroidPit: Affili.net"
+
+#: inc/admin.php:318
+msgid ""
+"Du hast eine Affiliate-ID bei Affili.net? Dann gebe sie hier an und die "
+"AndroidPit-Links werden mit deiner Affiliate-ID versehen. Du hast keinen "
+"Affili.net-Account?"
+msgstr ""
+"Vous avez un compte chez Affili.net ? Entrez-le ici et tous vos liens "
+"comporteront votre ID d'affilié. Vous n'avez pas de compte ?"
+
+#: inc/admin.php:321
+msgid "Affili.net-ID"
+msgstr "Identifiant  Affili.net"
+
+#: inc/admin.php:329
+msgid ""
+"Ich habe keine ID bei Affili.net und möchte die ID des Entwicklers nutzen. "
+"(In diesem Falle: <strong>Danke</strong>!)"
+msgstr ""
+"Je n'ai pas d'identifiant Affili.net et souhaite utiliser celui du "
+"développeur. (Dans ce cas : <strong>Merci beaucoup</strong> !)"
+
+#: inc/admin.php:340
+msgid "Eine kleine Übersicht darüber, wie ihr an die ID einer App gelangt."
+msgstr ""
+"Un aperçu rapide de la méthode pour récupérer les noms des packages des "
+"applications."
+
+#: inc/admin.php:353
+msgid "Änderungen speichern"
+msgstr "Enregistrer les modifications"
+
+#: inc/class.php:77 inc/class.php:135 inc/class.php:177 inc/class.php:310
+#: inc/class.php:349 inc/class.php:387 inc/class.php:441
+msgid "Kostenlos"
+msgstr "Gratuit"
+
+#: inc/class.php:106 inc/class.php:464 tpl/banner.php:14 tpl/screenshots.php:4
+#: tpl/simple.php:4
+msgid "Download"
+msgstr "Téléchargement"
+
+#: inc/class.php:435
+msgid "Unbekannt"
+msgstr "Inconnu"
+
+#: tpl/banner.php:10 tpl/screenshots.php:7 tpl/simple.php:7
+msgid "Entwickler"
+msgstr "Développeur"
+
+#: tpl/banner.php:11 tpl/feed.php:7 tpl/screenshots.php:8 tpl/simple.php:8
+msgid "Preis"
+msgstr "Prix"
