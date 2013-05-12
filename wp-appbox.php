@@ -233,15 +233,8 @@ function wpAppbox_appbox($appbox_attributs, $content) {
 	global $ItemInfo, $store_names, $style_names, $noqrcode, $price_overwrite, $price_old;
 	$class_init = new GetAppInfoAPI;
 	
-	if(is_array($appbox_attributs)) {
-		foreach ($appbox_attributs as $value) {
-			if(is_value_noqrcode($value)) $noqrcode = $value;
-			elseif(is_value_style($value)) $style = $value;
-			elseif(is_value_store($value)) $store = $value;
-			else $id = $value;
-		}
-	}
-	
+	$price_overwrite = '';
+	$price_old = '';
 	extract(shortcode_atts(array(
 		'preis' => '', 
 		'price' => '', 
@@ -252,6 +245,17 @@ function wpAppbox_appbox($appbox_attributs, $content) {
 	if($price) $price_overwrite = $price;
 	if($alterpreis) $price_old = $alterpreis;
 	if($oldprice) $price_old = $oldprice;
+	
+	if(is_array($appbox_attributs)) {
+		foreach ($appbox_attributs as $value) {
+			if(is_value_noqrcode($value)) $noqrcode = $value;
+			elseif(is_value_style($value)) $style = $value;
+			elseif(is_value_store($value)) $store = $value;
+			else {
+				if(($price_overwrite != $value) && ($price_old != $value)) $id = $value;
+			}
+		}
+	}
 	
 	if($store == 'appworld') $store = 'blackberryworld';
 	

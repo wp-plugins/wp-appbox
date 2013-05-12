@@ -121,6 +121,7 @@ Einfach in den Plugin-Ordner von WordPress extrahieren und aktivieren.
 * QR-Codes können auch temporär deaktiviert werden (Attribut: noqrcode)
 * Der anzuzeigende Preis kann verändert werden (Attribut: preis="1,00 €" oder price="1,00 €")
 * Es kann ein "alter Preis" angegeben werden (Attribut: alterpreis="1,00 €" oder oldprice="1,00 €")
+* Codeoptimierungen
 
 = 1.5.0 =
 * Samsung Apps implementiert
