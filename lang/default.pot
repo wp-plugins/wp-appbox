@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Appbox\n"
+"POT-Creation-Date: 2013-06-04 18:55+0100\n"
+"PO-Revision-Date: 2013-06-04 18:55+0100\n"
+"Last-Translator: Marcelismus\n"
+"Language-Team: Marcelismus\n"
+"Language: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-appbox.php:240
+msgid ""
+"Aufgrund einer temporären Erkennung als Bot können momentan leider keine App-"
+"Details angezeigt werden."
+msgstr ""
+
+#: wp-appbox.php:284
+msgid "Der Store konnte <strong>nicht</strong> erkannt werden."
+msgstr ""
+
+#: wp-appbox.php:285
+msgid "Es konnte <strong>keine</strong> App-ID erkannt werden."
+msgstr ""
+
+#: wp-appbox.php:310
+msgid "Die App konnte <b>nicht</b> gefunden werden."
+msgstr ""
+
+#: wp-appbox.php:356
+msgid ""
+"\"allow_url_fopen\" ist auf diesem Server deaktiviert, wird aber benötigt. "
+"Bitte aktiviere das Feature oder kontaktiere deinen Webhoster."
+msgstr ""
+
+#: wp-appbox.php:359
+msgid ""
+"\"cURL\" ist auf diesem Server deaktiviert, wird aber benötigt. Bitte "
+"aktiviere das Feature oder kontaktiere deinen Webhoster."
+msgstr ""
+
+#: inc/admin.php:11
+msgid "Der WP-Appbox-Cache wurde geleert."
+msgstr ""
+
+#: inc/admin.php:12
+msgid "Der WP-Appbox-Cache konnte nicht geleert werden."
+msgstr ""
+
+#: inc/admin.php:69
+msgid "Allgemeines"
+msgstr ""
+
+#: inc/admin.php:70
+msgid "Editor & Ausgabe"
+msgstr ""
+
+#: inc/admin.php:71
+msgid "Affiliate"
+msgstr ""
+
+#: inc/admin.php:73
+msgid "Hilfe"
+msgstr ""
+
+#: inc/admin.php:161
+msgid "Folge mir via Twitter"
+msgstr ""
+
+#: inc/admin.php:161
+msgid "Besuch die Plugin-Seite"
+msgstr ""
+
+#: inc/admin.php:161
+msgid "Plugin im WordPress Directory"
+msgstr ""
+
+#: inc/admin.php:162
+msgid ""
+"Soll der Cache wirklich geleert werden? Sämtliche App-Daten müssen dann neu "
+"von den Servern der Betreiber geladen werden."
+msgstr ""
+
+#: inc/admin.php:162
+msgid "Cache leeren"
+msgstr ""
+
+#: inc/admin.php:185
+msgid "Cache-Einstellungen"
+msgstr ""
+
+#: inc/admin.php:185
+msgid ""
+"Die Cachingzeiten geben an, wie oft die Daten aktualisiert vom Server "
+"geladen werden - dies erhöht die Performance und sollte eigentlich nicht "
+"geändert werden."
+msgstr ""
+
+#: inc/admin.php:188
+msgid "Caching-Zeit (in Minuten)"
+msgstr ""
+
+#: inc/admin.php:191
+msgid "Die empfohlene Zeitspanne beträgt <strong>300</strong> Minuten"
+msgstr ""
+
+#: inc/admin.php:195
+msgid "Sonstige Einstellungen"
+msgstr ""
+
+#: inc/admin.php:195
+msgid "Sonstiges Gedöns, was keine eigene Kategorie benötigt :D"
+msgstr ""
+
+#: inc/admin.php:207
+msgid "QR-Codes"
+msgstr ""
+
+#: inc/admin.php:209
+msgid "Zeigt alle QR-Codes in sämtlichen App-Badges an."
+msgstr ""
+
+#: inc/admin.php:210
+msgid "Zeigt QR-Codes nur für mobile App Stores an:"
+msgstr ""
+
+#: inc/admin.php:211
+msgid ""
+"Blendet sämtliche QR-Codes in den App-Badges aus. Temporär funktioniert dies "
+"auch über das Attribut \"noqrcode\" im Shortcode."
+msgstr ""
+
+#: inc/admin.php:215
+msgid "Titel nicht kürzen"
+msgstr ""
+
+#: inc/admin.php:217
+msgid ""
+"Zeigt immer den vollen App-Titel, auch wenn dieser zu viele Zeichen enthält."
+msgstr ""
+
+#: inc/admin.php:221
+msgid "Nofollow"
+msgstr ""
+
+#: inc/admin.php:223
+msgid ""
+"Fügt allen Links das Attribut \"<a href=\"http://de.wikipedia.org/wiki/"
+"Nofollow\" target=\"_blank\">nofollow</a>\" hinzu"
+msgstr ""
+
+#: inc/admin.php:226
+msgid "Öffne Links in einem neuen Fenster"
+msgstr ""
+
+#: inc/admin.php:228
+msgid "Öffnet alle App-Links in einem neuen Fenster (target=\"blank\")"
+msgstr ""
+
+#: inc/admin.php:232
+msgid "Fehlerausgabe & Fehlerbehebung"
+msgstr ""
+
+#: inc/admin.php:232
+msgid ""
+"Die Fehlerausgabe sollte nur in Problemfällen eingeschaltet werden. Kann das "
+"Design auseinandernehmen."
+msgstr ""
+
+#: inc/admin.php:235
+msgid "Parse Output"
+msgstr ""
+
+#: inc/admin.php:237
+msgid "Parse Output aktivieren"
+msgstr ""
+
+#: inc/admin.php:241
+msgid "Cache deaktivieren"
+msgstr ""
+
+#: inc/admin.php:243
+msgid ""
+"Der Cache nur kann temporär deaktiviert werden, indem an die URL eines "
+"Artikel \"?wpappbox_nocache\" angehangen wird."
+msgstr ""
+
+#: inc/admin.php:247
+msgid "Apple App Store Icons"
+msgstr ""
+
+#: inc/admin.php:249
+msgid "Kompatibilitätsmodus für App-Icons aus dem (Mac) App Store."
+msgstr ""
+
+#: inc/admin.php:257
+msgid "App Stores &amp; Formateinstellungen"
+msgstr ""
+
+#: inc/admin.php:257
+msgid ""
+"Welche Buttons sollten im Editor angezeigt werden und welche App-Banner "
+"sollen bei Verwendung ohne Formatstag genutzt werden?"
+msgstr ""
+
+#: inc/admin.php:260
+msgid "Appbox"
+msgstr ""
+
+#: inc/admin.php:262
+msgid ""
+"Nutze nur einen Button für alle App Stores (alle anderen Buttons werden "
+"ausgeblendet)"
+msgstr ""
+
+#: inc/admin.php:266
+msgid "Amazon Apps"
+msgstr ""
+
+#: inc/admin.php:268 inc/admin.php:279 inc/admin.php:290 inc/admin.php:300
+#: inc/admin.php:310 inc/admin.php:320 inc/admin.php:330 inc/admin.php:340
+#: inc/admin.php:351 inc/admin.php:361 inc/admin.php:371 inc/admin.php:381
+#: inc/admin.php:391
+msgid "Button im Editor anzeigen"
+msgstr ""
+
+#: inc/admin.php:270 inc/admin.php:281 inc/admin.php:292 inc/admin.php:302
+#: inc/admin.php:312 inc/admin.php:322 inc/admin.php:332 inc/admin.php:342
+#: inc/admin.php:353 inc/admin.php:363 inc/admin.php:373 inc/admin.php:383
+#: inc/admin.php:393
+msgid "Simple Badge"
+msgstr ""
+
+#: inc/admin.php:271 inc/admin.php:282 inc/admin.php:293 inc/admin.php:303
+#: inc/admin.php:313 inc/admin.php:323 inc/admin.php:333 inc/admin.php:343
+#: inc/admin.php:354 inc/admin.php:364 inc/admin.php:374 inc/admin.php:384
+msgid "Screenshots"
+msgstr ""
+
+#: inc/admin.php:272 inc/admin.php:283 inc/admin.php:344 inc/admin.php:394
+msgid "Banner Badge"
+msgstr ""
+
+#: inc/admin.php:277
+msgid "AndroidPit"
+msgstr ""
+
+#: inc/admin.php:288
+msgid "App Store &amp; Mac App Store"
+msgstr ""
+
+#: inc/admin.php:298
+msgid "Chrome Web Store"
+msgstr ""
+
+#: inc/admin.php:308
+msgid "BlackBerry World"
+msgstr ""
+
+#: inc/admin.php:318
+msgid "Firefox Erweiterungen"
+msgstr ""
+
+#: inc/admin.php:328
+msgid "Firefox Marketplace"
+msgstr ""
+
+#: inc/admin.php:338
+msgid "Google Play"
+msgstr ""
+
+#: inc/admin.php:349
+msgid "Opera Add-ons"
+msgstr ""
+
+#: inc/admin.php:359
+msgid "Samsung Apps"
+msgstr ""
+
+#: inc/admin.php:369
+msgid "Windows Store"
+msgstr ""
+
+#: inc/admin.php:379
+msgid "Windows Phone Store"
+msgstr ""
+
+#: inc/admin.php:389
+msgid "WordPress Plugin Verzeichnis"
+msgstr ""
+
+#: inc/admin.php:403
+msgid "(Mac) App Store &amp; App Store: TradeDoubler"
+msgstr ""
+
+#: inc/admin.php:403
+msgid ""
+"Du hast eine Affiliate-ID bei TradeDoubler? Dann gebe sie hier an und die "
+"App-Store-Links werden mit deiner Affiliate-ID versehen. Du hast keinen "
+"TradeDoubler-Account?"
+msgstr ""
+
+#: inc/admin.php:403 inc/admin.php:422 inc/admin.php:437
+msgid "Hier bekommst du einen."
+msgstr ""
+
+#: inc/admin.php:410
+msgid "TradeDoubler-ID"
+msgstr ""
+
+#: inc/admin.php:416 inc/admin.php:431 inc/admin.php:446
+msgid "Nutze die ID des Entwicklers"
+msgstr ""
+
+#: inc/admin.php:418
+msgid ""
+"Ich habe keine ID bei TradeDoubler und möchte die ID des Entwicklers nutzen. "
+"(In diesem Falle: <strong>Danke</strong>!)"
+msgstr ""
+
+#: inc/admin.php:422
+msgid "AndroidPit: Affili.net"
+msgstr ""
+
+#: inc/admin.php:422
+msgid ""
+"Du hast eine Affiliate-ID bei Affili.net? Dann gebe sie hier an und die "
+"AndroidPit-Links werden mit deiner Affiliate-ID versehen. Du hast keinen "
+"Affili.net-Account?"
+msgstr ""
+
+#: inc/admin.php:425
+msgid "Affili.net-ID"
+msgstr ""
+
+#: inc/admin.php:433
+msgid ""
+"Ich habe keine ID bei Affili.net und möchte die ID des Entwicklers nutzen. "
+"(In diesem Falle: <strong>Danke</strong>!)"
+msgstr ""
+
+#: inc/admin.php:437
+msgid "Amazon Apps: Amazon PartnerNet"
+msgstr ""
+
+#: inc/admin.php:437
+msgid ""
+"Du hast eine Affiliate-ID beim Amazon PartnerNet? Dann gebe sie hier an und "
+"die Amazon-App-Shop-Links werden mit deiner Affiliate-ID versehen. Du hast "
+"keinen Amazon-PartnerNet-Account?"
+msgstr ""
+
+#: inc/admin.php:440
+msgid "Amazon PartnerNet ID"
+msgstr ""
+
+#: inc/admin.php:448
+msgid ""
+"Ich habe keine ID beim Amazon PartnerNet und möchte die ID des Entwicklers "
+"nutzen. (In diesem Falle: <strong>Danke</strong>!)"
+msgstr ""
+
+#: inc/admin.php:457
+msgid "Eine kleine Übersicht darüber, wie ihr an die ID einer App gelangt."
+msgstr ""
+
+#: inc/admin.php:470
+msgid "Änderungen speichern"
+msgstr ""
+
+#: inc/class.php:81 inc/class.php:136 inc/class.php:181 inc/class.php:221
+#: inc/class.php:367 inc/class.php:406 inc/class.php:454 inc/class.php:497
+#: inc/class.php:536 inc/class.php:574 inc/class.php:629
+msgid "Kostenlos"
+msgstr ""
+
+#: inc/class.php:110 inc/class.php:654 tpl/banner.php:14 tpl/screenshots.php:4
+#: tpl/simple.php:4
+msgid "Download"
+msgstr ""
+
+#: inc/class.php:447
+msgid "verschiedene"
+msgstr ""
+
+#: inc/class.php:623
+msgid "Unbekannt"
+msgstr ""
+
+#: tpl/banner.php:10 tpl/screenshots.php:7 tpl/simple.php:7
+msgid "Entwickler"
+msgstr ""
+
+#: tpl/banner.php:11 tpl/feed.php:7 tpl/screenshots.php:8 tpl/simple.php:8
+msgid "Preis"
+msgstr ""
